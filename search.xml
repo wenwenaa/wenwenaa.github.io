@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F05%2F13%2Ftest-1%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F05%2F10%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[My New Post]]></title>
+    <url>%2F2019%2F02%2F11%2FMy-New-Post%2F</url>
+    <content type="text"><![CDATA[input type=button按钮样式在ios系统下的渲染效果和android效果不一样在ios系统中，按钮的样式是ios自带的，我设置的样式没有加上。需要用到 -webkit-appearance:none; 另外在ios上input会有自带的灰色阴影，也用这个属性去掉。 form表单中，button是默认为submit按钮的，提交的时候，提交按钮如果没有设置type,ajax提交的时候，用e.preventDefault()阻止它跳转,或者我把它设置为type=”button”rem 布局，font-size=50, 元素的宽 如果想要200，那css width：4remDate对象 初始化对象 new Date(), 里面可以是毫秒数、时间字符串、具体年月日 12345678let d=new Date(5000);console.log(d) //Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)let d1=new Date(2008,6,1);console.log(d1) //Tue Jul 01 2008 00:00:00 GMT+0800 (中国标准时间) 2008年7月1日let d2=new Date("October 13, 1975 11:13:00")console.log(d2) //Mon Oct 13 1975 11:13:00 GMT+0800 (中国标准时间)let d3=new Date();console.log(d3) //Thu Jan 24 2019 14:21:55 GMT+0800 (中国标准时间) 当前的时间 获取日期 12345678910let mydate=new Date(); console.log(mydate.getFullYear()) //获取年份 2019 console.log(mydate.getMonth()) // 获取月份 0 也就是1月 0-11就是1-12月 console.log(mydate.getDate()) // 获取日 24 1-31 console.log(mydate.getDay()) // 获取星期 4 0-6 0是星期日 console.log(mydate.getHours()) //获取小时 15 下午3点 0-23 console.log(mydate.getMinutes()) //获取分钟数 0-59 console.log(mydate.getSeconds()) //获取秒数 0-59 console.log(mydate.getMilliseconds()) //获取毫秒数 0-999 console.log(mydate.getTime()) // 获取1970.1.1至今的毫秒数 设置日期 返回值为调整后时间的毫秒数 123456789let mydate=new Date(1996,02,9) mydate.setFullYear(year[, month][, day]) mydate.setMonth(month[, day]) mydate.setDate(day_of_month) mydate.setHours(hours[, mins][, secs][, ms]) mydate.setMinutes(minutes[, seconds][, millisec]) mydate.setTime(5000) document.write(mydate)//Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间) document.write( mydate.setTime(5000)) //5000 转换 1234567let mydate=new Date() document.write(mydate.toSource()); //(new Date(1548407797624)) document.write(mydate.toTimeString()); //17:16:37 GMT+0800 (中国标准时间) document.write(mydate.toDateString()); //Fri Jan 25 2019 document.write(mydate.toLocaleString()); //2019/1/25 下午5:20:32 document.write(mydate.toLocaleTimeString()) //下午5:22:33 document.write(mydate.toLocaleDateString()) //2019/1/25]]></content>
+      <tags>
+        <tag>遇到的问题</tag>
+      </tags>
+  </entry>
+</search>
